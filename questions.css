@@ -10,7 +10,7 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
     
     
-    background-color: aliceblue;
+    background-color: lightcyan;
 }
 
 .container{
@@ -20,7 +20,7 @@ body{
     border-radius: 20px;
     background-size: cover;
     
-    background-image: url('https://cdn.wallpapersafari.com/22/67/TdPnD5.jpg');
+    background-image: url('inner_bg.jpg');
 
 }
 #btn2{
