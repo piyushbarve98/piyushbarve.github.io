@@ -2,18 +2,29 @@
 <html>
     <head>
         <link href='questions.css' rel='stylesheet'>
-        <meta name="viewport" content="width=device-width, initial-scale=1.5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.05">
         <title>
             Questions!!
         </title>
         <script src='questions.js'></script>
+        <script>
+            var points1=0;
+            sessionStorage.setItem('marks',points1);
+
+        </script>
     </head>
 <body>
     
     <div class='container'>
+        
     <h2>Your First Question</h2>
+    <div id='para'>
+        <p id='point1'>Answer the question below!</p>
+        <p id='point2'></p>
+        </div>
     <h3>Q. Full form of HTML?</h3>
-    <p id='point1'></p>
+    
+    
     <form >
     <input type='radio' id='val1' name='q1' value='val1'> <span>Hyper Text Makeup Language</span></input><br><br>
     <input type='radio' id='val2' name='q1' value='val2'> Hyper Text Markup Language</input><br><br>
