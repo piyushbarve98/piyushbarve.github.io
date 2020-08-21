@@ -8,12 +8,13 @@ body{
     align-items: center;
     padding-top:40px;
     font-family: 'Merriweather Sans', sans-serif;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('https://i.stack.imgur.com/o4k9q.jpg');
+    
+    
+    background-color: rgb(241, 217, 172);
 }
 
 .container{
+    
     border: none;
     padding: 90px 50px;
     border-radius: 20px;
