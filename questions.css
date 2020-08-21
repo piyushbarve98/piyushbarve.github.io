@@ -33,6 +33,7 @@ body{
     color: white;
     cursor: pointer;
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 101%;
 }
 #btn1:hover,#btn2:hover{
     border: none;
