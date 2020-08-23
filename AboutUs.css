@@ -1,8 +1,11 @@
-@import "https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Satisfy&display=swap" ;
 html{
     font-size: 62.5%;
 }
 
+body{
+    background: linear-gradient(rgba(189, 185, 185, 0.486),rgba(189, 185, 185, 0.452));
+}
 h1{
     font-family: cursive;
     margin-left: 25rem;
@@ -17,4 +20,15 @@ h1{
     width: 50rem;
     margin-left: 43rem;
     border-radius: 60rem;
+}
+.dev{
+    font-family: 'Satisfy', cursive;
+    margin-left: 49rem;
+    font-size: 4.5rem;
+
+}
+.name{
+    margin-left: 30rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
 }
