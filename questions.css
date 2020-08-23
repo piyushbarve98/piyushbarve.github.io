@@ -16,7 +16,7 @@ body{
 .container{
     margin-top: 30px;
     border: none;
-    padding: 80px 40px;
+    padding: 80px 37px;
     border-radius: 20px;
     background-size: cover;
     
@@ -40,6 +40,10 @@ body{
     border: 1px solid #f44336;
     color: #f44336;
     
+}
+#btn2{
+    padding-left:30px;
+    padding-right:30px;
 }
 
 input{
