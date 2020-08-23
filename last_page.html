@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='questions.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Questions!!
+        </title>
+        <script src='questions.js'></script>
+        <style>
+            .div1{
+                border: 2px solid black;
+                padding: 20px;
+                margin-bottom : 20px;
+                background: linear-gradient(rgba(240, 83, 83, 0.596),rgba(98, 231, 98, 0.514));
+                border-radius: 4px;
+            }
+            #p1,#p2{
+                background-color: #dd453a;
+                color: white;
+                cursor: pointer;
+                padding: 10px;
+                border-radius: 4px;
+            }
+            .note{
+                border:2px solid black;
+                margin: 4px;
+                padding: 8px;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+<body>
+    
+    <div class='container'>
+    <h1>Thankyou For Visiting!!</h1>
+    <div class='div1'>
+    <p id='p1'>Your Total Score: &nbsp <span id='score'></span> points out of 40 points </p>
+    <p id='p2'>Your Performance in Test: &nbsp<span id='perform'></span></p>
+    <div class='note'>
+        <p><b>Note:</b></p>
+        <p>This Web Application is still under work more <br> questions and features will be added soon.</p>
+    </div>
+    </div>
+
+    <script>
+        let total=sessionStorage.getItem('marks');
+        document.getElementById('score').innerHTML= total + '    ';
+        var msg;
+        if(total==20) msg='Perfect';
+        else if(total>15 && total<20) msg='Too Good';
+        else if(total>10 && total<=15) msg='Good';
+        else if(total>5 && total<=10) msg='Can be done better';
+        else if(total>0 && total<=5) msg='Very Bad';
+        else if(total==0) msg='Worst';
+        document.getElementById('perform').innerHTML= msg + '    ';
+     </script>
+    
+    <button type="submit" id='btn1' onclick='index.html'>Take Test Again</button>&nbsp
+    <button type="button" id='btn2' onclick="window.location.href='AboutUs.html';">About Us</button>
+    
+
+    </form>
+</div>
+</body>
+</html>
