@@ -2,17 +2,16 @@
 
 @import 'https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap';
 
+html{height: 100%;}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top:40px;
     font-family: 'Merriweather Sans', sans-serif;
-    
-    background-size: cover;
-    background-image: url(markus-spiske-Skf7HxARcoc-unsplash.jpg);
+   
+    background: linear-gradient(rgba(245, 71, 71, 0.562),rgba(81, 112, 117, 0.575));
 }
-
 
 .container{
     margin-top: 30px;
