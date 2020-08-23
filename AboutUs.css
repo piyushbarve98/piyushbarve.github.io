@@ -10,7 +10,7 @@ h1{
     font-family: cursive;
     margin-left: 25rem;
     margin-top: 8rem;
-    font-size: 5rem;
+    font-size: 4.4rem;
     color: black;
     font-family: 'Luckiest Guy', cursive;
 
@@ -31,4 +31,10 @@ h1{
     margin-left: 30rem;
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
+}
+
+@media screen and (max-width: 500px){
+    html{
+        font-size: 25%;
+    }
 }
