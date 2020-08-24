@@ -40,8 +40,14 @@ h1{
         font-size: 20%;
     }
     .name{
-        margin-left: 10rem;
+        margin-left: 13rem;
         font-size: 4rem;
-        margin-right: 10rem;
+        margin-right: 13rem;
+    }
+    h1{
+        margin-left: 20rem ;
+    }
+    .tanjiro{
+        margin-left: 25rem;
     }
 } 
