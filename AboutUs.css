@@ -12,7 +12,7 @@ h1{
     margin-top: 8rem;
     font-size: 4.4rem;
     color: black;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'LuckiestGuy', cursive;
 
 }
 .tanjiro{
@@ -22,18 +22,18 @@ h1{
     border-radius: 60rem;
 }
 .dev{
-    font-family: 'Satisfy', cursive;
+    font-family:  'Satisfy',cursive;
     margin-left: 49rem;
     font-size: 4.5rem;
 
 }
 .name{
     margin-left: 30rem;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy',cursive;
     font-size: 3rem;
 }
 
-@media screen and (max-width: 600px){
+@media only screen and (max-width:500px){
     html{
         font-size: 25%;
     }
