@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Satisfy&display=swap" ;
+@import "https://fonts.googleapis.com/css2?family=Pacifico&display=swap";
 html{
     font-size: 62.5%;
 }
@@ -8,18 +9,18 @@ body{
 }
 h1{
     font-family: cursive;
-    margin-left: 25rem;
+    margin-left: 24rem;
     margin-top: 8rem;
-    font-size: 4.4rem;
+    font-size: 6rem;
     color: black;
-    font-family: 'LuckiestGuy', cursive;
+    font-family: 'Pacifico', cursive;
 
 }
 .tanjiro{
-    height: 50rem;
-    width: 50rem;
-    margin-left: 43rem;
-    border-radius: 60rem;
+    height: 80rem;
+    width: 80rem;
+    margin-left: 30rem;
+    border-radius: 40rem;
 }
 .dev{
     font-family:  'Satisfy',cursive;
@@ -31,10 +32,16 @@ h1{
     margin-left: 30rem;
     font-family: 'Satisfy',cursive;
     font-size: 3rem;
+    margin-right: 20rem;
 }
 
-@media only screen and (max-width:450px){
+ @media only screen and (max-width:450px){
     html{
-        font-size: 25%;
+        font-size: 20%;
     }
-}
+    .name{
+        margin-left: 10rem;
+        font-size: 4rem;
+        margin-right: 10rem;
+    }
+} 
