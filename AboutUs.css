@@ -78,14 +78,26 @@ h1{
     }
     .name{
         margin-left: 12rem;
-        font-size: 4rem;
+        font-size: 5rem;
         margin-right: 13rem;
     }
     h1{
-        margin-left: 30rem ;
+        margin-left: 8rem;
+        font-size:11rem;
     }
     .tanjiro{
         margin-left: 25rem;
+    }
+    .dev{
+        font-size: 7rem;
+        margin-left: 37rem;
+    }
+    li a{
+        font-size: 6rem;
+        
+    }
+    ul{
+        padding-left: 20rem;
     }
 } 
 
