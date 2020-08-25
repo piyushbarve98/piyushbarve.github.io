@@ -1,2 +1,2 @@
 # NewRepo.github.io
-new page
+Simple QNA webapp using Html , Css and javascript

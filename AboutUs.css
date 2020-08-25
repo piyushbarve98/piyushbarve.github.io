@@ -44,7 +44,7 @@ li a:hover{
 h1{
     
     margin-left: 30rem;
-    margin-top: 8rem;
+    margin-top: 12rem;
     font-size: 8rem;
     color: black;
     font-family: 'Cookie', cursive;
@@ -88,3 +88,30 @@ h1{
         margin-left: 25rem;
     }
 } 
+
+@media only screen and (min-width:900px){
+    html{
+        font-size: 52%;
+    }
+    .tanjiro{
+        height: 50rem;
+        width: 50rem;
+        margin-left: 55rem;
+        border-radius: 40rem;
+        margin-bottom: 7rem; 
+        margin-top: 15rem;
+    }
+    .dev{
+        font-family:  'Satisfy',cursive;
+        margin-left: 63rem;
+        font-size: 4.5rem;
+    
+    }
+    ul{
+        padding-left: 57rem;
+    }
+    h1{
+        margin-left: 43rem
+    }
+   
+}

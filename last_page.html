@@ -62,8 +62,8 @@
         var msg;
         if(total==20) msg='Perfect';
         else if(total>15 && total<20) msg='Too Good';
-        else if(total>10 && total<=15) msg='Good';
-        else if(total>5 && total<=10) msg='Can be done better';
+        else if(total>10 && total<=15) msg='Normal';
+        else if(total>5 && total<=10) msg='Bad';
         else if(total>0 && total<=5) msg='Very Bad';
         else if(total==0) msg='Worst';
         document.getElementById('perform').innerHTML= msg + '    ';
