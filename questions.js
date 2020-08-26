@@ -4,7 +4,7 @@ function myfunction(){
     var val3= document.getElementById('val3');
     var val4= document.getElementById('val4');
     let points=sessionStorage.getItem('marks');
-    Navigator.vibrate(200);
+    window.navigator.vibrate(300);
     sound=document.getElementById('myAudio');
     sound.play();
     
