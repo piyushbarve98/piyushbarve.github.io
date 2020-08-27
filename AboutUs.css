@@ -136,6 +136,9 @@
                 font-family: 'Yanone Kaffeesatz', sans-serif;
                 padding: 0.5rem 1rem;
             }
+            li a:hover{
+                background-color: rgba(67, 184, 223, 0.671);
+            }
             h1 {
                 display: flex;
                 justify-content: center;

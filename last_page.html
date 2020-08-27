@@ -66,6 +66,7 @@
         else if(total>5 && total<=10) msg='Bad';
         else if(total>0 && total<=5) msg='Very Bad';
         else if(total==0) msg='Worst';
+        else if(total<0)  msg= 'Poor';
         document.getElementById('perform').innerHTML= msg + '    ';
      </script>
     

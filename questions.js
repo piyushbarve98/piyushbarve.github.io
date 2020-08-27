@@ -4,9 +4,13 @@ function myfunction(){
     var val3= document.getElementById('val3');
     var val4= document.getElementById('val4');
     let points=sessionStorage.getItem('marks');
-    window.navigator.vibrate(300);
-    sound=document.getElementById('myAudio');
+    window.navigator.vibrate(200);
+    sound=document.getElementById('right');
+    sound1.play();
+    sound1=document.getElementById('wrong');
     sound.play();
+    sound2=document.getElementById('noAnswer');
+    sound2.play();
     
     if (val1.checked==true){
         alert('Wrong Answer ');
