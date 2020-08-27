@@ -17,9 +17,9 @@ body{
 }
 
 .container{
-    margin-top: 0px;
+    margin-top: 10px;
     border: none;
-    padding: 80px 37px;
+    padding: 60px 37px;
     border-radius: 20px;
     background-size: cover;
     
