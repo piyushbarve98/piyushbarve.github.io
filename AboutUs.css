@@ -36,6 +36,9 @@
                 font-family: 'Yanone Kaffeesatz', sans-serif;
                 padding: 0.5rem 1rem;
             }
+            li a:hover{
+                background-color: rgba(67, 184, 223, 0.671);
+            }
             h1 {
                 display: flex;
                 justify-content: center;
@@ -87,6 +90,13 @@
                 width: 80%;
                 border: 2px solid black;
                 padding-left: 2rem;
+            }
+            footer{
+                width: 100%;
+                background-color: rgb(71, 67, 67);
+                padding: 10px;
+                color: white;
+                font-family: 'Yanone Kaffeesatz', sans-serif;
             }
         }
         /* for the destop media query */
