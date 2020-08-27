@@ -26,7 +26,7 @@ function myfunction(){
         document.getElementById('point2').innerHTML= 'Total Points: '+points;
         document.getElementById('point1').innerHTML= 'Points Awarded: +4 '; 
         sound=document.getElementById('right');
-        sound1.play();
+        sound.play();
     }
     else if (val3.checked==true){
         alert('Wrong Answer ');
@@ -44,7 +44,7 @@ function myfunction(){
         document.getElementById('point2').innerHTML= 'Total Points: '+points;
         document.getElementById('point1').innerHTML= 'Points Awarded: -1 ' ;
         sound1=document.getElementById('wrong');
-        sound.play();
+        sound1.play();
     }
     else if (val1.checked==false && val2.checked==false && val3.checked==false && val4.checked==false){
         alert('No option is selected');
