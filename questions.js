@@ -16,7 +16,7 @@ function myfunction(){
         document.getElementById('point2').innerHTML= 'Total Points: ' + points;
         document.getElementById('point1').innerHTML= 'Points Awarded: -1 ' ;
         sound1=document.getElementById('wrong');
-        sound.play();
+        sound1.play();
         
     }
     else if (val2.checked==true){
@@ -35,7 +35,7 @@ function myfunction(){
         document.getElementById('point2').innerHTML= 'Total Points: '+points;
         document.getElementById('point1').innerHTML= 'Points Awarded: -1 ' ;
         sound1=document.getElementById('wrong');
-        sound.play();
+        sound1.play();
     }
     else if (val4.checked==true){
         alert('Wrong Answer ');
