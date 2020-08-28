@@ -41,7 +41,7 @@ h2{
     justify-content: center;
     margin:0;
     padding-top:10px;
-    font-size: 200%;
+    font-size: 290%;
 }
 .container > p{
     display: flex;
@@ -111,4 +111,15 @@ h2{
     padding:10px 3px;
     border-radius: 3px;
     
+}
+
+@media (max-width:400px){
+    html{
+        font-size:85%;
+    }
+}
+@media (max-width:340px){
+    html{
+        font-size: 70%;
+    }
 }
