@@ -19,6 +19,7 @@ function myfunction(){
         
     }
     else if (val2.checked==true){
+        window.navigator.vibrate(200);
         sound=document.getElementById('right');
         sound.play();
         alert('Right Answer');
