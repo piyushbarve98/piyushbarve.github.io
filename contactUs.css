@@ -13,7 +13,7 @@ body{
     align-items: center;
     background-size:cover;
     background: url('Webp.net-resizeimage.jpg');
-    padding-top: 20%;
+    padding-top:10%;
 }
 
 
@@ -21,9 +21,9 @@ body{
 .container{
     width: 80%;
    
-    background: linear-gradient(rgba(0, 0, 0, 0.445),rgba(27, 27, 27, 0.397));
+    background: linear-gradient(rgba(48, 47, 47, 0.555),rgba(44, 43, 43, 0.562));
     padding: 3%;
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Cookie', cursive;
     
 }
 .img-container{
@@ -41,13 +41,16 @@ h2{
     justify-content: center;
     margin:0;
     padding-top:10px;
+    font-size: 200%;
 }
 .container > p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    margin-top:-7px;
+    padding: 10px;
+    margin-top:0px;
+   
+    font-size: 140%;
     
 
 }
@@ -63,8 +66,8 @@ h2{
     
 }
 .fa-instagram{
-    font-size:400%;
-    color: white;
+    font-size:300%;
+    color: rgba(28, 185, 238, 0.61);
     padding: 3%;
     text-align:center;
     text-decoration: none;
@@ -72,16 +75,16 @@ h2{
 }
 
 .fa-github{
-    font-size:400%;
-    color: white;
+    font-size:300%;
+    color: rgba(2, 2, 2, 0.932);
     padding: 3%;
     text-align:center;
     text-decoration: none;
     
 }
 .fa-google{
-    font-size:350%;
-    color: white;
+    font-size:260%;
+    color: rgba(218, 44, 32, 0.671);
     padding: 3%;
     text-align:center;
     text-decoration: none;
@@ -91,9 +94,21 @@ h2{
 .fa:hover{
     opacity:0.7;
 }
-.tag{
-    background: linear-gradient(rgba(66, 182, 221, 0.781),rgba(79, 79, 216, 0.61));
+.tag1{
+    background: linear-gradient(rgba(66, 182, 221, 0.637),rgba(95, 95, 236, 0.541));
     padding:10px;
+    border-radius: 3px;
+    
+}
+.tag2{
+    background: linear-gradient(rgba(34, 231, 109, 0.644),rgba(75, 202, 149, 0.541));
+    padding:10px;
+    border-radius: 3px;
+    
+}
+.tag3{
+    background: linear-gradient(rgba(228, 19, 19, 0.575),rgba(223, 81, 81, 0.541));
+    padding:10px 3px;
     border-radius: 3px;
     
 }
