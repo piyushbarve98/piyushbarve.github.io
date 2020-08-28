@@ -1,4 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap";
 
 body{
     margin: 0;
@@ -9,14 +11,10 @@ body{
     justify-content: center;
     align-items: center;
     background-size:cover;
-    background: url('https://resizeimage.net/mypic/W2J6BIfPRh6g0HHu/iQtfo/pubg_mobile.jpg');
+    background: url('Webp.net-resizeimage.jpg');
     padding-top: 20%;
 }
-.myimg{
-    height: 70%;
-    width:40%;
-    border-radius:50%;
-}
+
 
 
 .container{
@@ -32,8 +30,64 @@ body{
     justify-content: center;
     align-items: center;
 }
+.myimg{
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+}
 h2{
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin:0;
+    padding-top:10px;
 }
+.container > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top:-7px;
+    
+
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 110%;
+    padding-bottom: 5%;
+    
+    
+}
+.fa-instagram{
+    font-size:400%;
+    color: white;
+    padding: 3%;
+    text-align:center;
+    text-decoration: none;
+
+}
+
+.fa-github{
+    font-size:400%;
+    color: white;
+    padding: 3%;
+    text-align:center;
+    text-decoration: none;
+    
+}
+.fa-google{
+    font-size:350%;
+    color: white;
+    padding: 3%;
+    text-align:center;
+    text-decoration: none;
+
+    
+}
+.fa:hover{
+    opacity:0.7;
+}
+
