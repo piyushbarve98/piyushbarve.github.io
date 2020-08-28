@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Cookie&display=swap";
 
 body{
     margin: 0;
@@ -54,10 +55,10 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Dancing Script', cursive;
     color: black;
-    font-size: 110%;
+    font-size: 140%;
     padding-bottom: 5%;
+    font-family: 'Cookie', cursive;
     
     
 }
@@ -92,5 +93,7 @@ h2{
 }
 .tag{
     background: linear-gradient(rgba(66, 182, 221, 0.781),rgba(79, 79, 216, 0.61));
-    padding:4px;
+    padding:10px;
+    border-radius: 3px;
+    
 }
