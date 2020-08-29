@@ -21,7 +21,7 @@ body{
 .container{
     width: 80%;
    
-    background: linear-gradient(rgba(48, 47, 47, 0.555),rgba(44, 43, 43, 0.562));
+    background: linear-gradient(rgba(214, 211, 211, 0.61),rgba(118, 59, 255, 0.562));
     padding: 3%;
     font-family: 'Cookie', cursive;
     
@@ -42,6 +42,7 @@ h2{
     margin:0;
     padding-top:10px;
     font-size: 290%;
+    font-weight: normal;
 }
 .container > p{
     display: flex;
@@ -67,7 +68,7 @@ h2{
 }
 .fa-instagram{
     font-size:300%;
-    color: rgba(28, 185, 238, 0.61);
+    color: rgba(28, 185, 238, 0.795);
     padding: 3%;
     text-align:center;
     text-decoration: none;
@@ -84,7 +85,7 @@ h2{
 }
 .fa-google{
     font-size:260%;
-    color: rgba(218, 44, 32, 0.671);
+    color: rgba(218, 44, 32, 0.849);
     padding: 3%;
     text-align:center;
     text-decoration: none;
@@ -95,19 +96,19 @@ h2{
     opacity:0.7;
 }
 .tag1{
-    background: linear-gradient(rgba(66, 182, 221, 0.637),rgba(95, 95, 236, 0.541));
+    background: linear-gradient(rgba(66, 182, 221, 0.815),rgba(95, 95, 236, 0.774));
     padding:10px;
     border-radius: 3px;
     
 }
 .tag2{
-    background: linear-gradient(rgba(34, 231, 109, 0.644),rgba(75, 202, 149, 0.541));
+    background: linear-gradient(rgba(34, 231, 110, 0.822),rgba(75, 202, 149, 0.795));
     padding:10px;
     border-radius: 3px;
     
 }
 .tag3{
-    background: linear-gradient(rgba(228, 19, 19, 0.575),rgba(223, 81, 81, 0.541));
+    background: linear-gradient(rgba(228, 19, 19, 0.801),rgba(223, 81, 81, 0.801));
     padding:10px 3px;
     border-radius: 3px;
     

@@ -74,7 +74,7 @@ body{
 
 @media (max-width:400px){
     .outer{
-        padding-top:50%;
+        padding-top:35%;
     }
     li a {
         font-size: 115%;
@@ -83,7 +83,7 @@ body{
 
 @media (max-width:350px){
     .outer{
-        padding-top:60%;
+        padding-top:30%;
     }
     li a {
         font-size: 95%;
