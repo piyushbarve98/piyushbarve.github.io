@@ -59,17 +59,18 @@ body{
     padding-bottom: 40%;
     
 }
+
 .start{
     text-decoration:none;
     color: white;
     padding: 8px 20px;
-    background: rgba(9, 115, 150, 0.959);
+    background: rgba(8, 140, 184, 0.856);
     font-size: 35px;
     border-radius: 4px;
 }
 
 .start:hover{
-    background: rgba(21, 84, 105, 0.932);
+    background: rgba(11, 133, 173, 0.973);
 }
 
 @media (max-width:400px){
