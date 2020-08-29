@@ -63,13 +63,13 @@ body{
     text-decoration:none;
     color: white;
     padding: 8px 20px;
-    background: rgba(7, 111, 146, 0.774);
+    background: rgba(9, 115, 150, 0.959);
     font-size: 35px;
     border-radius: 4px;
 }
 
 .start:hover{
-    background: rgb(11, 111, 145);
+    background: rgba(21, 84, 105, 0.932);
 }
 
 @media (max-width:400px){
