@@ -10,6 +10,11 @@
             sessionStorage.setItem('marks',points1);
 
         </script>
+        <script>
+            if(navigator.userAgent.includes("Instagram")){
+                document.getElementById('start').innerHTML= <a href='question_html.html' download="" id='start'>Lets get going</a>;
+            }
+          </script>
        
     </head>
     <body>
@@ -26,7 +31,7 @@
         </header>
         <div class='outer'>
         <div class='container'>
-            <a href="question_html.html" download="" class='start'>Let's get Started</a>
+            <a href="question_html.html"  id='start'>Let's get Started</a>
             
         </div>
     </div>
