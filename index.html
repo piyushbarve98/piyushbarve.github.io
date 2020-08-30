@@ -15,7 +15,7 @@
     </head>
     <body>
         <header>
-            <nav class="navbar">
+            <nav id="navbar">
                 <ul>
                     <!-- <li><a href="#" class="lists"><i class="fa fa-instagram"></i></a></li> -->
                     <li><a href="index.html" class="lists">Home</a></li>
@@ -27,8 +27,8 @@
         </header>
         <div class='outer'>
         <div class='container'>
-            <a href="question_html.html"  id='start' >Let's get Started</a>
-            <a href="question_html.html" download id='start1' >Let's get Started!</a>
+            <a href="question_html.html"  id='start' >Let's get Started!</a>
+            <a href="index.html" download id='start1' > Click </a>
             </div>
     </div>
     <script>
@@ -41,13 +41,14 @@
         if(navigator.userAgent.includes("Instagram")){
             document.getElementById('start1').style.display="block";
             document.getElementById('start').style.display="none";
+            document.getElementById('navbar').style.display="none";
         }
       </script>
     </body>
 </html>
 
 
-:
+
 
  
 
