@@ -27,14 +27,17 @@
         </header>
         <div class='outer'>
         <div class='container'>
-            <a href="question_html.html"  id='start'>Let's get Started</a>
+            <a href="question_html.html"  id='start' >Let's get Started</a>
+            <a href="question_html.html" download id='start1' hidden >Let's get Started!</a>
             
         </div>
     </div>
     <script>
             
         if(navigator.userAgent.includes("Instagram")){
-            document.getElementById('start').innerHTML= <a href="question_html.html"  download id='start'>Let's get Started</a>;}
+            document.getElementById('start1').style.visibility="visible";
+            document.getElementById('start').style.visibility="hidden";
+        }
       </script>
     </body>
 </html>
