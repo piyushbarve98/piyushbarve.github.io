@@ -28,15 +28,19 @@
         <div class='outer'>
         <div class='container'>
             <a href="question_html.html"  id='start' >Let's get Started</a>
-            <a href="question_html.html" download id='start1' hidden >Let's get Started!</a>
-            
-        </div>
+            <a href="question_html.html" download id='start1' >Let's get Started!</a>
+            </div>
     </div>
     <script>
             
+        if(navigator.userAgent.includes("Chrome")){
+            document.getElementById('start').style.display="block";
+            document.getElementById('start1').style.display="none";
+        }
+      
         if(navigator.userAgent.includes("Instagram")){
-            document.getElementById('start1').style.visibility="visible";
-            document.getElementById('start').style.visibility="hidden";
+            document.getElementById('start1').style.display="block";
+            document.getElementById('start').style.display="none";
         }
       </script>
     </body>
