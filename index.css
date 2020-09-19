@@ -90,3 +90,18 @@ body{
         font-size: 95%;
     }
 }
+
+@media (min-width:900px){
+    body{
+        background-size: cover;
+
+        background-image: url('desktop_zenitsu.jpg');
+    }
+    .outer{
+        padding-top: 120px;
+    }
+    .container{
+        padding: 180px;
+        width: 30%;
+    }
+}

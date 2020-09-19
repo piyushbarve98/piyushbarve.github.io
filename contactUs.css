@@ -130,3 +130,29 @@ h2{
         font-size: 70%;
     }
 }
+
+@media (min-width:900px){
+    html{
+        font-size: 120%;
+    }
+    body{
+        background-image: url('destop_pubg.jpg');
+        padding: 20px;
+    }
+    .container{
+        padding: 20px;
+    }
+    .img-container{
+        margin: 0px;
+    }
+    
+    .mydiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .insta{
+        padding-bottom: 10px;
+    }
+
+}
